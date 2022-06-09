@@ -1,0 +1,80 @@
+table#enroll {
+    border: 1px solid;
+    border-spacing: 10px;
+    width: 500px;
+    margin: 0 254px;
+    background-color: #fff;
+}
+
+table#enroll th {
+    text-align: right;
+}
+
+table#enroll td.btn-wrapper {
+    text-align: center;
+}
+
+.phone {
+    width: 30px;
+}
+
+span.req {
+    color: red;
+}
+
+.short {
+    width: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+#tb-guestbook {
+    border: 1px solid black;
+    border-spacing: 10px;
+    width: 1000px;
+    margin: 50px 4px;
+    background-color: #fff;
+}
+
+table#tb-guestbook th, td {
+    text-align: left;
+}
+
+#ssn1, #ssn2 {
+    width: 72px;
+}
+
+#tel2, #tel3 {
+    width: 50px;
+}
+#arrow {
+    border: 0px solid black;
+    width: 60px;
+    top: 30px;
+    right: 20px;
+    position: fixed;
+}
+body{
+    font-family: 'Do Hyeon', sans-serif;
+}

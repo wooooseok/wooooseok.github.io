@@ -1,0 +1,38 @@
+body {
+    background-position: center;
+    background-color: lightcyan;
+    font-size: 32px;
+    text-align: center;
+    text-decoration-style: wavy;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(137, 180, 50, 0.507);
+    text-align: center;
+}
+
+#member {
+    position: fixed;
+    display: flex;
+    margin-left: 5px;
+    top: 5px;
+}
+
+#login {
+    margin-right: 20px;
+    text-decoration: underline;
+    color: gray;
+    font-size: 15pt;
+}
+
+#signup {
+    text-decoration: underline;
+    color: gray;
+    font-size: 15pt;
+}
+
+ol {
+    padding-left: 0px;
+}

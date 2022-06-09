@@ -1,0 +1,43 @@
+#first {
+    color: rgb(92, 79, 79);
+    background-color: pink;
+    font-size: 45px;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#roadmap ul li {
+    font-size: 25px;
+}
+
+#roadmap ul ol img {
+    width: 300px;
+    list-style-position: text-top;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: cornflowerblue;
+    color: white;
+    z-index: 999;
+    font-size: 40px;
+}
+
+img {
+    width: 400px;
+}
+
+#arrow {
+    border: 0px solid black;
+    width: 60px;
+    top: 40px;
+    right: 8px;
+    position: fixed;
+}
+
+.sticky {
+    font-size: 45px;
+}

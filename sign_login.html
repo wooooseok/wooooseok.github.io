@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+  
+  <a href="index.html"><img src="image/arrow.png" alt="" id="arrow"></a><h1 style="margin-left: 410px;">🎉회원가입🎉</h1>
+  <form action="javascript:saveGuestbook(); alert('제출성공');" name="guestbookFrm">
+    <!-- table#enroll>(tr>th+td)*10 -->
+    <table id="enroll">
+      <tr>
+        <th>아이디<span class="req">*</span></th>
+        <td>
+          <input type="text" name="userId" id="userId" />
+        </td>
+      </tr>
+      <tr>
+        <th>비밀번호<span class="req">*</span></th>
+        <td>
+          <input type="password" name="pwd" id="pwd" />
+        </td>
+      </tr>
+      <tr>
+        <th>비밀번호확인</th>
+        <td>
+          <input type="password" id="pwdCheck" />
+        </td>
+      </tr>
+      <tr>
+        <th>이름<span class="req">*</span></th>
+        <td>
+          <input type="text" name="userName" id="userName" />
+        </td>
+      </tr>
+      <tr>
+        <th>주민번호<span class="req">*</span></th>
+        <td>
+          <input type="text" name="ssn1" id="ssn1" class="short" /> - <input type="password" name="ssn2" id="ssn2" class="short" />
+        </td>
+      </tr>
+      <tr>
+        <th>이메일<span class="req">*</span></th>
+        <td>
+          <input type="email" name="email" id="email" />
+        </td>
+      </tr>
+      <tr>
+        <th>전화번호<span class="req">*</span></th>
+        <td>
+          <!-- input:text[name=tel$]#tel$.phone*3 -->
+          <input type="text" name="tel1" id="tel1" class="phone" value="010" readonly />-
+          <input type="text" name="tel2" id="tel2" class="phone" />-
+          <input type="text" name="tel3" id="tel3" class="phone" />
+        </td>
+      </tr>
+      <tr>
+        <th>직업</th>
+        <td>
+          <select name="job" id="job">
+            <option value="개발자">개발자</option>
+            <option value="학생">학생</option>
+            <option value="무직">무직</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" class="btn-wrapper">
+          <input type="submit" value="제출" />&nbsp;
+          <input type="reset" value="초기화" />
+        </td>
+      </tr>
+    </table>
+    <table id="tb-guestbook">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>아이디</th>
+          <th>비밀번호</th>
+          <th>이름</th>
+          <th>주민번호</th>
+          <th>이메일</th>
+          <th>전화번호</th>
+          <th>직업</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </form>
+  <script src="js/signup.js"></script>
+</body>
+</html>
